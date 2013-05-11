@@ -2,8 +2,8 @@
 # zlib-1.2.7.sh by Dan Peori (danpeori@oopo.net)
 
 ## Download the source code.
-wget --continue http://zlib.net/zlib-1.2.7.tar.gz
-
+#wget --continue http://zlib.net/zlib-1.2.7.tar.gz
+wget --continue http://netcologne.dl.sourceforge.net/project/libpng/zlib/1.2.7/zlib-1.2.7.tar.gz
 ## Unpack the source code.
 rm -Rf zlib-1.2.7 && tar xfvz zlib-1.2.7.tar.gz && cd zlib-1.2.7
 
